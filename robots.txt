@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /1.png/
+Disallow: /2.png/
+Disallow: /3.png/
+Disallow: /4.png/
+Disallow: /5.png/
+Disallow: /6.png/
+Disallow: /7.png/
+Disallow: /8.png/
+Disallow: /city.png/
+Disallow: /logo.png/
+Disallow: /delicious_BaBico.ico/
+Disallow: /delicious_BaBico.png/

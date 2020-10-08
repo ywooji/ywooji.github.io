@@ -11,3 +11,4 @@ Disallow: /city.png/
 Disallow: /logo.png/
 Disallow: /delicious_BaBico.ico/
 Disallow: /delicious_BaBico.png/
+DaumWebMasterTool:b7ace5aa8c1f349a1df6d1441fd8be7f8d0fe39b08859ef34282f0151fe35514:cM7PRZUtCPNnxoXqLoCY3Q==

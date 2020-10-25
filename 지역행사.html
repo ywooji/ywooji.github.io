@@ -7,9 +7,7 @@
 			background-color: rgb(250,156,192); 
 			height: 100px;
 			color: white; 
-			border-top: 1px black solid; 
-			border-left: 1px black solid; 
-			border-right: 1px black solid; 
+			border:1px black solid;
 			font-size: 25px
 		}
 		#grid{
@@ -19,6 +17,13 @@
 		#padding{
 			display: grid;
 			grid-template-columns: 15px 1fr;
+		}
+		#Home{
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+		}
+		#bigpicture{
+			width: 800px;
 		}
 		.layout{
 			border: 1px solid black;
@@ -33,7 +38,20 @@
 		}
 		a{
 		  text-decoration: none; 
-		  color: black; w
+		  color: black; 
+		}
+	    @media(max-width: 1155px){
+			img{
+				width: 80%;
+			}
+			#bigpicture{
+				width: 80%
+			}
+		}
+		@media(max-width: 900px){
+			#grid{
+				display: block;
+			}
 		}
 	</style>
 </head>
@@ -41,8 +59,9 @@
 <div id="title">
 	<h1 class="center">지역행사<h1>
 </div>
+<div id="Home"><a href="ywooji.github.io">&nbsp;Home</a></div>
 <div id="grid">
-	<div class="layout">
+	<div class ="layout">
 		<h3>&nbsp;&nbsp;목차</h3> 
 		<ol>
 			<li><a href="#개롱골 장군거리 축제">개롱골 장군거리 축제</a></li>
@@ -54,13 +73,20 @@
 	</div>
 	<div class="layout" id="padding"><div></div>
 		<div>
-		<h2 id="개롱골 장군거리 축제
-		">1. 개롱골 장군거리 축제</h2>
-		<img src="개롱골 장군거리
-		 축제.jpeg">
-		 <span class="picture_explain">사진[1] 개롱골 장군거리 축제 | 출처:<span>
-		<p>
-		</p>
+			<h2 id="개롱골 장군거리 축제">1. 개롱골 장군거리 축제</h2>
+			<img src="개롱골 장군거리 축제.jpeg">
+		 	<span class="picture_explain">사진[1] 개롱골 장군거리 축제 | 출처:<a href="https://cafe.naver.com/happysongpagu/2717" target="_blank"> https://cafe.naver.com/happysongpagu/2717</a></span>
+			<p></p>
+
+			<h2 id="가락골 송덕비 축제">2. 가락골 송덕비 축제</h2>
+			<img src="가락동 송덕비 축제.jpeg">
+		 	<span class="picture_explain">사진[2] 가락골 송덕비 축제 | 출처:<a href="https://blog.naver.com/smoothies/221665771949" target="_blank"> https://blog.naver.com/smoothies/221665771949</a></span>
+			<p></p>
+
+			<h2 id="가락골 독서 경진대회">3. 가락골 독서 경진대회</h2>
+			<img src="개롱골 독서 경진 대회.jpg" id="bigpicture">
+		 	<span class="picture_explain">사진[3] 가락골 독서 경진대회 | 출처:<a href="http://culture.songpa.go.kr/user.kdf?a=songpa.act.gallery.ActionPhotoesApp&c=1002&event_no=1865&cate_id=BI0301000000" target="_blank"> http://culture.songpa.go.kr/...</a></span>
+			<p></p>
 
 		</div>
 	</div>

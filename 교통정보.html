@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>가락동 알아보기-교통정보</title>
+	<style type="text/css">
+		#menu{
+			font-size: 20px;
+			padding:10px;
+		}
+		#LastDIV{
+			border:none
+		}
+		body{
+			margin:0px;
+		}
+		h1{
+			text-align: center;
+			font-size: 100px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-family: Georgia,"맑은 고딕",serif;
+			border-bottom: 1px solid black;
+			}
+		h2{
+			text-align: center;
+			margin:none;
+		}
+		div{
+			border-bottom: 1px black solid;
+		}
+		a{
+			text-decoration: none;
+			color: slateblue;
+		}
+		iframe{
+			align-content: center;
+		}
+		table{
+			border-collapse: collapse;
+			width: 80%;
+			margin-left:auto;
+			margin-right: auto;
+			margin-bottom: 10px;
+
+		}
+		#bus td{ color: black; }
+		#train td{ color: lightgray; }
+	</style>
+<body>
+
+
+	<h1>교통정보</h1>
+		<div><a href="ywooji.github.io" style="color: black;">HOME</a></div>
+		<div id="menu">
+		<b>Menu</b><br>
+		<a href="#지하철 노선">지하철노선</a> | <a href="#버스 노선">버스노선</a> 
+		</div>
+		<!--본문이다...--> 
+		<div>
+			<h2 id="지하철 노선">지하철 노선</h2>
+			<p align="middle"><iframe src="https://www.google.com/maps/d/embed?mid=1-R5iJRz4fybl7WmNp2Rqv7O3Enl-UD7x" width="640" height="480"></iframe></p>
+			<table border="1px" id="train">
+				<tr><th>노선명</th><th>역명</th></tr>
+				<tr bgcolor="#fe5d10"><td>3호선</td><td> 경찰병원역 | 가락시장역 </td></tr>
+				<tr bgcolor="#8b50a4"><td>5호선</td><td> 오금역 | 개롱역 </td></tr>
+				<tr bgcolor="#f14c82"><td>8호선</td><td> 송파역 | 가락시장역 </td></tr>
+			</table>
+		</div>
+		<div>
+			<h2 id="버스 노선">버스 노선</h2>
+			<p align="middle"><iframe src="https://www.google.com/maps/d/embed?mid=1upwVhVeZzychvF1WLmr9jwsDQA-9WvGx" width="640" height="480"></iframe></p>
+			<table border="1px" id="bus">
+				<tr><th>종류</th><th>버스 번호</th></tr>
+				<tr bgcolor="#CEF279"><td> 일반</td><td> 60 | 87 | 100 </td></tr>
+				<tr bgcolor="#86E57F"><td> 지선</td><td> 3217 | 3317 | 3319 | 3416 | 3422 | 2311 | 3011 | 3322 | 3318 | 3315 | 3314 | 3313 </td></tr>
+				<tr bgcolor="#6799FF"><td> 간선</td><td> 301 | 343 | 401 | 461 </td></tr>
+				<tr bgcolor="lightgray"><td> 공항</td><td>6300</td></tr>
+			</table>
+		</div> 	
+
+
+	<div>Copyright 2020. PJS All right reserved</div>
+</body>
+</html>
